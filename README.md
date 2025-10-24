@@ -1,9 +1,13 @@
-# aws-s3-static-websit🌐 AWS S3 Static Website Deployment
+🌐 AWS S3 Static Website Deployment
 
 This project demonstrates how to deploy a static website to AWS S3 using both a Bash automation script and a GitHub Actions CI/CD pipeline.
 It automates bucket creation, hosting setup, and continuous deployment straight from GitHub.
 
+
+
 🧱 Project Structure
+
+
 aws-s3-static-website/
 │
 ├── website_file/            
@@ -21,7 +25,9 @@ aws-s3-static-website/
 
 
 
+
 ⚙️ Technologies Used
+
 
 AWS S3 – static website hosting
 
@@ -33,7 +39,10 @@ Bash Script – automated deployment
 
 HTML, CSS, JS – frontend files
 
+
+
 🚀 Deployment Methods
+
 Option 1: Bash Automation Script
 
 File: deploy_s3_website.sh
@@ -50,7 +59,6 @@ Applying public read access
 
 Run the script:
 
-
 chmod +x deploy_s3_website.sh
 ./deploy_s3_website.sh
 
@@ -66,11 +74,14 @@ ERROR_FILE="error.html"
 
 http://my-capstone-project-2025.s3-website-us-east-1.amazonaws.com
 
+
+
 Option 2: GitHub Actions CI/CD
 
 File: .github/workflows/deploy.yml
 
 Whenever you push changes to the main branch, this workflow automatically uploads your files to S3
+
 
 
 🔑 GitHub Secrets Setup
