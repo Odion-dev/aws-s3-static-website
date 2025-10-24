@@ -5,27 +5,6 @@ It automates bucket creation, hosting setup, and continuous deployment straight 
 
 
 
-🧱 Project Structure
-
-
-aws-s3-static-website/
-│
-├── website_file/            
-│   ├── index.html
-│   ├── error.html
-│   ├── style.css
-│   ├── script.js
-│   └── images/
-│
-├── deploy_s3_website.sh    
-│
-└── .github/
-    └── workflows/
-            └── deploy.yml   
-
-
-
-
 ⚙️ Technologies Used
 
 
@@ -70,9 +49,6 @@ REGION="us-east-1"
 WEBSITE_FILE="website_file"
 INDEX_FILE="index.html"
 ERROR_FILE="error.html"
-
-
-http://my-capstone-project-2025.s3-website-us-east-1.amazonaws.com
 
 
 
