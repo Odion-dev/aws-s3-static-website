@@ -22,19 +22,27 @@ HTML, CSS, JS – frontend files
 
 🚀 Deployment Methods
 
-Option 1: Bash Automation Script
-
 File: deploy_s3_website.sh
 
-This script automates:
 
-S3 bucket creation
+
+
+This Bash script automates:
+
+
+
+
+S3 bucket creation and configuration
+
+
+
 
 Static website hosting setup
 
-File uploads to S3
 
-Applying public read access
+
+
+File uploads from project folder
 
 
 
