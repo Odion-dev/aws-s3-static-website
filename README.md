@@ -1,4 +1,4 @@
-🌐 AWS S3 Static Website Deploymet
+🌐 AWS S3 Static Website Deployment
 
 This project demonstrates how to deploy a static website to AWS S3 using both a Bash automation script and a GitHub Actions CI/CD pipeline.
 It automates bucket creation, hosting setup, and continuous deployment straight from GitHub.
@@ -48,7 +48,7 @@ File uploads from project folder
 
 🧾 Notes
 
-Ensure your S3 bucket name is globally unique
+Ensure S3 bucket name is globally unique
 
 Double-check file paths for CSS/JS if styling doesn’t appear
 You do not need --acl public-read for buckets with ACLs disabled (default for new S3 buckets)
